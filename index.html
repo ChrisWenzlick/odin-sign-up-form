@@ -8,16 +8,17 @@
 </head>
 <body>
   <div id="image-sidebar">
-    <div id="title">
-
+    <div id="title" class="transparent-banner">
+      <img src="./img/odin-lined.png" width="80px">
+      Odin Sign-up
     </div>
-    <img src="./img/code.jpg" height="1396" width="931">
-    <div id="credit">
+    <!-- <img src="./img/code.jpg" height="1396" width="931"> -->
+    <div id="credit" class="transparent-banner">
       Photo by <a href="https://pixabay.com/users/pexels-2286921/">Pexels</a> on <a href="https://pixabay.com/photos/code-coding-computer-data-1839406/">Pixabay</a>
     </div>
   </div>
   <div id="content">
-    <div id="placeholder-text">
+    <div id="placeholder-text" class="left">
       <p>
         This form is for demonstration purposes only, and does
         not represent a real online service. The fields below
@@ -26,7 +27,7 @@
       </p>
     </div>
     <form action="" method="post">
-      <div class="form">
+      <div class="form left transparent-banner">
         <div class="input">
           <label for="first_name">FIRST NAME</label>
           <input type="text" id="first_name" name="first_name">
@@ -52,9 +53,11 @@
           <input type="password" id="confirm_password" name="confirm_password">
         </div>
       </div>
-      <button type="submit">Create Account</button>
+      <div class="left">
+        <button type="submit">Create Account</button>
+      </div>
     </form>
-    <div id="login">
+    <div id="login" class="left">
       Already have an account? <a href="#">Log in</a>
     </div>
   </div>
